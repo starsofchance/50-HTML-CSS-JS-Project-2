@@ -6,4 +6,4 @@
 # 50 HTML, CSS, and JS sample project
 ## Project 1: Digital Clock
 An Image of the project output.
-![](https://github.com/starsofchance/50-HTML-CSS-JS-Project/blob/main/Animation.gif)
+![]()
