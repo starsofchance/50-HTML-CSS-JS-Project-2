@@ -9,34 +9,40 @@ body {
   justify-content: center;
   font-family: sans-serif;
   overflow: hidden;
-  background: hsla(221, 45%, 73%, 1);
-  background: radial-gradient(
-    circle,
-    hsla(221, 45%, 73%, 1) 0%,
-    hsla(220, 78%, 29%, 1) 100%
+  /* background is made using https://www.joshwcomeau.com/gradient-generator/ */
+  background-image: linear-gradient(
+    45deg,
+    hsl(6deg 70% 23%) 0%,
+    hsl(17deg 79% 33%) 18%,
+    hsl(27deg 89% 42%) 26%,
+    hsl(38deg 100% 50%) 33%,
+    hsl(79deg 100% 50%) 39%,
+    hsl(119deg 100% 50%) 44%,
+    hsl(160deg 100% 50%) 50%,
+    hsl(187deg 100% 50%) 56%,
+    hsl(214deg 100% 50%) 61%,
+    hsl(241deg 100% 50%) 67%,
+    hsl(260deg 100% 50%) 74%,
+    hsl(278deg 100% 50%) 82%,
+    hsl(297deg 100% 50%) 100%
   );
-  background: -moz-radial-gradient(
-    circle,
-    hsla(221, 45%, 73%, 1) 0%,
-    hsla(220, 78%, 29%, 1) 100%
-  );
-  background: -webkit-radial-gradient(
-    circle,
-    hsla(221, 45%, 73%, 1) 0%,
-    hsla(220, 78%, 29%, 1) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9bafd9", endColorstr="#103783", GradientType=1 );
 }
 h2 {
-  color: white;
-  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
   letter-spacing: 4px;
   text-align: center;
+  background-color: #e57c23;
+  border-radius: 15px;
+  padding: 10px;
 }
 .year {
   font-size: 3em;
   color: white;
   font-weight: bold;
+  background-color: #164b60;
+  border-radius: 20px;
+  padding: 10px;
 }
 .countdown {
   margin: 30px;
@@ -57,6 +63,9 @@ h2 {
   text-align: center;
   /* setting the space between elements */
   width: 100px;
+  background-color: #1b6b93;
+  border-radius: 20px;
+  padding: 10px;
 }
 /* adding before pseudo element to see the month day year ... */
 
