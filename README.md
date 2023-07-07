@@ -9,4 +9,4 @@
 
 =======
 An Image of the project output.
-![]()
+![](https://github.com/starsofchance/50-HTML-CSS-JS-Project-2/blob/main/Animation.gif)
